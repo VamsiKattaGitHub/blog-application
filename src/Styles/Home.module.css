@@ -1,0 +1,79 @@
+
+.container {
+  padding: 20px;
+}
+
+.heroSection {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.heroImage {
+  flex: 2;
+  background-color: lightgray;
+  height: 300px;
+}
+
+.heroText {
+  flex: 3;
+  padding: 20px;
+}
+
+.latestSection {
+  margin-bottom: 20px;
+}
+
+.latestArticles {
+  display: flex;
+  gap: 20px;
+}
+
+.article {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.articleImage {
+  height: 150px;
+  background-color: lightgray;
+  margin-bottom: 10px;
+}
+
+.mainContent {
+  display: flex;
+}
+
+.latestArticlesSection {
+  flex: 3;
+}
+
+.articleList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.topPosts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.topPost {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.topPostImage {
+  height: 100px;
+  background-color: lightgray;
+  margin-bottom: 10px;
+}
